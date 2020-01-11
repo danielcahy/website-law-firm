@@ -1,0 +1,11 @@
+body {
+    height: 1000px;
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+}
+
+#navbar, #logo {
+    transition: 0.3s;
+}
