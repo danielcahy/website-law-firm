@@ -2,9 +2,11 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+  if (document.documentElement.scrollTop > 80) {
     document.getElementById("navbar").classList.remove("py-3")
   } else {
-    document.getElementById("navbar").classList.add("py-3")  
+    document.getElementById("navbar").classList.add("py-3")
   }
+  console.log(document.body.scrollTop)
+  console.log(document.documentElement.scrollTop)
 }

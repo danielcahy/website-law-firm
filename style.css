@@ -9,3 +9,7 @@ body {
 #navbar, #logo {
     transition: 0.3s;
 }
+
+ #contact {
+     transition: 0.3s;
+ }
