@@ -13,3 +13,12 @@ body {
 #contact {
     transition: 0.3s;
 }
+.dropdown-menu {
+    font-size: .9rem;
+}
+.nav-link {
+    font-size: .9rem;
+}
+.dropdown-divider {
+    margin: .25rem 0 0;
+}
