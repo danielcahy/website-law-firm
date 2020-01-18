@@ -4,11 +4,8 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.documentElement.scrollTop > 80) {
     document.getElementById("navbar").classList.remove("py-lg-3")
-    document.getElementById("dmenu").classList.remove("mt-lg-3")
-
   } else {
     document.getElementById("navbar").classList.add("py-lg-3")
-    document.getElementById("dmenu").classList.add("mt-lg-3")
   }
   console.log(document.body.scrollTop)
   console.log(document.documentElement.scrollTop)

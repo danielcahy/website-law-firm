@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 body {
     height: 1000px;
     background-image: url(banner.jpg);
@@ -16,9 +18,23 @@ body {
 .dropdown-menu {
     font-size: .9rem;
 }
+nav {
+    font-family: 'Open Sans', sans-serif;
+}
 .nav-link {
     font-size: .9rem;
 }
 .dropdown-divider {
     margin: .25rem 0 0;
+}
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background:orange;
+    transition: width .7s;
+}
+.nav-link:hover::after {
+    width: 100%;
 }
