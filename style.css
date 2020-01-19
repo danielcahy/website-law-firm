@@ -23,12 +23,15 @@ nav {
 }
 .nav-link {
     font-size: .9rem;
+    letter-spacing: .1rem;
 }
 .dropdown-divider {
     margin: .25rem 0 0;
 }
 .nav-link::after {
-    margin-top: 5px;
+    /* margin-top: 5px; */
+    position: relative;
+    top: 5px;
     content: '';
     display: block;
     width: 0;
