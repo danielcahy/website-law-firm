@@ -3,10 +3,11 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.documentElement.scrollTop > 80) {
-    document.getElementById("navbar").classList.remove("py-lg-3")
+    document.getElementById("navbar").style.height = "60px"
   } else {
-    document.getElementById("navbar").classList.add("py-lg-3")
+    document.getElementById("navbar").style.height = "92px"
   }
   console.log(document.body.scrollTop)
   console.log(document.documentElement.scrollTop)
+  console.log(document.getElementById("navbar").style.height)
 }

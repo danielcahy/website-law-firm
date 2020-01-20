@@ -20,6 +20,9 @@ body {
 }
 nav {
     font-family: 'Open Sans', sans-serif;
+    height: 92px;
+    box-sizing: border-box !important;
+    padding: 0 !important;
 }
 .nav-link {
     font-size: .9rem;
@@ -41,4 +44,21 @@ nav {
 }
 .nav-link:hover::after {
     width: 100%;
+}
+
+li.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    margin-top: 0px;
+}
+
+.navbar-nav {
+    height: 92px;
 }
